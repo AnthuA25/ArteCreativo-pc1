@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #00B4D8; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #DA2C83;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.menu a:hover{
+  background-color: #18273E;
+  border-radius: 10px;
+}
