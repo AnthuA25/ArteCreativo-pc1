@@ -82,3 +82,66 @@ header {
 .banner button:hover {
   background-color: #B2226F;
 }
+.informative{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.informative img{
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.content-informative {
+  max-width: 600px;
+  align-items: center;
+  /* border:2px solid red; */
+  /* width: 50%; */
+
+}
+.content-informative h2{
+  font-size: 2rem;
+  color: #18273E;
+}
+.content-informative p{
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  padding-top: 10px;
+}
+
+.historia img {
+  width: 300px;
+  border-radius: 10px;
+}
+.products {
+  text-align: center;
+  padding: 50px 20px;
+
+  /* border:2px solid red; */
+}
+.products h2{
+  font-size: 2rem;
+  color: #18273E;
+  margin-bottom: 30px;
+}
+.products-grid{
+  display: flex;
+  justify-content: space-around;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.product img{
+  width: 350px;
+}
+/* footer */
+footer{
+  background-color: #da2c83;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 1.3;
+}
