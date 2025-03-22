@@ -175,3 +175,28 @@ footer{
   padding: 20px 10px;
   line-height: 1.3;
 }
+
+/* Products */
+.title-products {
+  text-align: center;
+  padding: 10px;
+  color: #18273e;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-prodcuts ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-prodcuts ul li {
+  border: 2px solid #da2c83;
+  padding: 12px;
+  border-radius: 8px;
+  list-style: none;
+}
