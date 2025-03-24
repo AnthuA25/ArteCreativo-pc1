@@ -38,8 +38,7 @@ header {
   padding: 10px;
   transition: background-color 0.3s ease;
 }
-.menu a:hover,
-.menu a.active {
+.menu a:hover {
   background-color: #18273e;
   border-radius: 10px;
 }
@@ -97,7 +96,7 @@ header {
       display: block;
   }
 
-  .close-menu {
+  #menu .close-menu {
     display: block;
     position: absolute;
     top: 15px;
