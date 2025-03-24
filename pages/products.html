@@ -12,17 +12,25 @@
   </head>
   <body>
     <header>
-      <a href="../index.html" class="logo"> ArteCreativo </a>
-      <nav class="menu">
+      <a href="index.html" class="logo"> ArteCreativo </a>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav class="menu" id="menu">
+        <i class="fa-solid fa-xmark close-menu" id="close-menu" ></i>
         <ul>
           <li><a href="../index.html">Inicio</a></li>
-          <li><a href="products.html">Productos</a></li>
-          <li><a href="about.html">Sobre Nosotros</a></li>
-          <li><a href="contact.html">Contacto</a></li>
-          <li>Carrito<a href=""></a></li>
+          <li><a href="/pages/products.html">Productos</a></li>
+          <li><a href="/pages/about.html">Sobre Nosotros</a></li>
+          <li><a href="/pages/contact.html">Contacto</a></li>
+          <li><a href="">Carrito</a></li>
         </ul>
       </nav>
+
     </header>
+    <div class="overlay" id="overlay"></div>
     <main class="product-catalog">
       <h2 class="title-products">Catálago de Productos</h2>
       <section class="filters">
@@ -178,5 +186,6 @@
       <address>ArteCreativo Shop - Jirón Puno 411 Lima</address>
       <small>&copy; 2025 ArteCreativo. Todos los derechos reservados</small>
     </footer>
+    <script src="../js/index.js"></script>
   </body>
 </html>
