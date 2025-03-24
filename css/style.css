@@ -52,7 +52,7 @@ header {
   color: white;
   cursor: pointer;
 }
-.fa-xmark {
+#menu .fa-xmark{
   display: none;
 }
 
@@ -252,6 +252,7 @@ header {
 }
 .image-outstanding img {
   width: 330px;
+  max-width: 100%;
   height: 350px;
   border-radius: 8px;
 }
@@ -290,14 +291,14 @@ header {
   border: none;
   font-size: 1.2rem;
 }
-
+/* 
 @media (max-width: 768px) {
 
   .image-outstanding img {
-    width: 100%;
+    max-width: 100%;
   }
 
-}
+} */
 
 .why-choose-us {
   display: flex;
@@ -369,6 +370,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  gap: 50px;
 }
 .filters form {
   display: flex;
@@ -415,7 +417,7 @@ footer {
   color: white;
 }
 .container-products{
-  margin-top: 70px;
+  margin-top: 40px;
   padding: 0 60px;
 }
 /* end products page */
