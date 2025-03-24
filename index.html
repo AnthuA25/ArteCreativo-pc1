@@ -13,16 +13,24 @@
   <body>
     <header>
       <a href="index.html" class="logo"> ArteCreativo </a>
-      <nav class="menu">
+
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav class="menu" id="menu">
+        <i class="fa-solid fa-xmark close-menu" id="close-menu" ></i>
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pages/products.html">Productos</a></li>
           <li><a href="pages/about.html">Sobre Nosotros</a></li>
           <li><a href="pages/contact.html">Contacto</a></li>
-          <li>Carrito<a href=""></a></li>
+          <li><a href="">Carrito</a></li>
         </ul>
       </nav>
+
     </header>
+    <div class="overlay" id="overlay"></div>
     <main>
       <section class="banner">
         <h1>Imprime con calidad, personaliza con estilo</h1>
@@ -62,7 +70,8 @@
               <p class="precio">S/. 30</p>
             </div>
             <button class="button">
-                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> Agregar
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+              Agregar
             </button>
           </article>
           <article class="product">
@@ -75,7 +84,8 @@
               <p class="precio">S/. 300</p>
             </div>
             <button class="button">
-                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> Agregar
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+              Agregar
             </button>
           </article>
           <article class="product">
@@ -88,7 +98,8 @@
               <p class="precio">S/. 300</p>
             </div>
             <button class="button">
-                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> Agregar
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+              Agregar
             </button>
           </article>
         </div>
@@ -123,5 +134,7 @@
       <address>ArteCreativo Shop - Jirón Puno 411 Lima</address>
       <small>&copy; 2025 ArteCreativo. Todos los derechos reservados</small>
     </footer>
+
+    <script src="/js/index.js"></script>
   </body>
 </html>
