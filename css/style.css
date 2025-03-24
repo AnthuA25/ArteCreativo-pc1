@@ -235,11 +235,18 @@ header {
 }
 .products-grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
   flex-wrap: wrap;
 }
-
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  max-width: 330px;
+}
 .image-outstanding {
   position: relative;
 }
@@ -260,7 +267,10 @@ header {
 .info{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%; 
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .info .titulo{
@@ -281,6 +291,13 @@ header {
   font-size: 1.2rem;
 }
 
+@media (max-width: 768px) {
+
+  .image-outstanding img {
+    width: 100%;
+  }
+
+}
 
 .why-choose-us {
   display: flex;
@@ -372,7 +389,7 @@ footer {
   border: none;
   outline: none;
   background: transparent;
-  color: #000000;
+  color: #333;
   font-size: 16px;
   width: 200px;
 }
